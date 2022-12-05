@@ -1,0 +1,5 @@
+<launch>
+  <node name="audio" pkg="speaker_proj" type="audio.py" output="screen" />
+  <node name="speak" pkg="speaker_proj" type="speak.py" output="screen" />
+  <node name="social_net" pkg="speaker_proj" type="social_net.py" output="screen" />
+</launch>
